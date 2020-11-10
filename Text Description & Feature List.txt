@@ -1,0 +1,13 @@
+Description: 
+- A wild-west of cryptocurrency ideas, Cryptodea, short for Cryptocurrency-Idea 
+is an open-source website where anyone can create and delete a cryptocurrency idea. 
+
+
+Features:
+- Create Idea Back-end log.
+- Required Validations on each input.
+- AWS Native website.
+- About us page listing Engineers who worked on the website.
+- Open-source delete function for community to weed out bad actors and ideas.
+  (Real Life Example: an open-source Google Forms Page but for Cryptocurrencies) 
+

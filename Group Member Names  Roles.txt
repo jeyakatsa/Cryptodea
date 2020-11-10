@@ -1,0 +1,3 @@
+Shannon Kitchell: Front-End Engineering & Git
+Ozair Waseem: Back-End Engineering & Git
+Jeremy Akatsa: Git, AWS & Front-End/Back-End (when needed)
