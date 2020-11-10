@@ -1,0 +1,55 @@
+Hi Shannon Kitchen and Ozair Waseem, I see that you both signed up to be part of the
+Cryptodea building crew, welcome!
+
+As you may (or may not know), I altered the description of the project to better reflect
+the website as a whole; it's now described as a wild-west of cryptocurrency ideas
+as the spirit of it being open-source, anyone can create and delete any cryptocurrency
+idea generated within the website.
+
+After we're done, I'll be marketing our website to bitcoiners/cryptocurrency enthusiasts
+in my sparetime so Cryptodea will be live (and usable) for years to come. 
+
+In regards to our main responsibilities, they are as follows:
+Shannon Kitchell: Front-End Engineering & Git
+Ozair Waseem: Back-End Engineering & Git
+Jeremy Akatsa: Git, AWS & Front-End/Back-End[when needed]
+
+Note: as you can see (from the wireframe), the about us page will feature our roles on this website, links to 
+our githubs/linkedin's as well as our overall techstack knowledge
+(think of this page as our 2nd resume).
+
+In regards to the Wednesday Group Project Proposal Check-off list 
+(in the Coding-Dojo Platform [wireframes section]), y'all can check off all the
+tasks and link the github repo to complete the proposal assignment today if you'd like.
+
+How we'll integrate the front-end/back-end: 
+As you both know, the back-end will be built with Java since I'm only knowledgable on 
+launching a project on AWS with java. 
+We're all coming from different stack knowledge bases so
+I'll reach back after researching how to integrate python(front-end) with java(back-end)
+when I send y'all requests to connect you both to the Cryptodea repository (after refreshing my 
+knowledge on how these gitignore/branching git terminal commands work). 
+I should have the front-end(python)/back-end(java) integration info 
+(including the repository joining requests) to you both 
+by EOD (End Of Day) Wednesday (11/11/20).
+
+I work a full-time job on-top of attending coding-dojo so these are the times when I'll be
+available to consistently chat while working on algorithms and our group assignment.
+- Mondays: 5pm-8pm (PST)
+- Tuesdays: 5pm-8pm (PST)
+- Wednesdays: 5pm-8pm (PST)
+- Thursdays: OFF
+- Fridays: 5pm-9pm (PST)
+- Saturdays: 9am-7pm (PST)
+- Sundays: 8am-5pm (PST)
+
+This is gonna be a learning experience for me as much as it will be for you, but I think it'll be
+well worth it in the end.
+
+I check mattermost occasionally so 
+the best way to reach me is through my e-mail: jeyakatsa@gmail.com if you have any questions,
+in-case of urgency, I can provide my personal number (if needed).
+
+All the best,
+
+Jeremy-A
