@@ -1,3 +1,6 @@
-Shannon Kitchell: Front-End Engineering & Git
-Ozair Waseem: Back-End Engineering & Git
-Jeremy Akatsa: Git, AWS & Front-End/Back-End (when needed)
+- 1 Front-End Engineer (to work on the "/index" page and the "/about" page)
+- 1 Front-End Engineer (to work on the "/create" page and the "/{id}" page)
+- 1 Back-End Engineer (to work on the overall Back-End logic of the website)
+- 1 Back-End Engineer (to help with the Back-End and be in charge of launching the website on AWS)
+
+TO BE DETERMINED
