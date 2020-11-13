@@ -3,4 +3,4 @@
 - 1 Back-End Engineer (to work on the overall Back-End logic of the website)
 - 1 Back-End Engineer (to help with the Back-End and be in charge of launching the website on AWS)
 
-TO BE DETERMINED
+TO BE DETERMINED.
