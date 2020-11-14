@@ -1,5 +1,0 @@
-git remote add origin ssh://github.com/jeyakatsa/Cryptodea.git
-
-git remote rm origin
-
-DaDDaDaDDa1
