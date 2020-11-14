@@ -1,0 +1,3 @@
+$ git remote add origin https://github.com/jeyakatsa/Cryptodea.git
+
+git remote rm jeyakatsa@github.com:jeyakatsa/Cryptodea.git
