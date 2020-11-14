@@ -1,4 +1,4 @@
-Front-End Engineer (to work on the "/index" page, the "/about" page and be in charge of launching the website onto AWS) - Jeremy A
-Front-End Engineer (to work on the "/create" page and the "/{id}" page) - Justin Sk
-Back-End Engineer (to work on the overall Back-End logic of the website) - Ozair Waseem
-Back-End Engineer (to work on the overall Back-End logic of the website) - Olena Kasiianyk
+- Front-End Engineer (to work on the "/index" page, the "/about" page and be in charge of launching the website onto AWS) - Jeremy A
+- Front-End Engineer (to work on the "/create" page and the "/{id}" page) - Justin Sk
+- Back-End Engineer (to work on the overall Back-End logic of the website) - Ozair Waseem
+- Back-End Engineer (to work on the overall Back-End logic of the website) - Olena Kasiianyk
