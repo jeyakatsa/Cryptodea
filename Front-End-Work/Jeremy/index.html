@@ -46,10 +46,10 @@
 				<tbody>
 				<c:forEach items="${ideas}" var="idea">
 					<tr>
-						<td>*Currency Name Here*</td>
-						<td>*Acronym Here*</td>
-                        <td>*Creator's name Here*</td>
-                        <td>*Delete Function Here*</td>
+						<td>${idea.currency}</td>
+						<td>${idea.acronym}</td>
+						<td>${idea.creator}</td>
+						<td><a href="/cryptodea.com/delete/${idea.id}">Delete</a></td>
 					</tr>
 				</c:forEach>
 				</tbody>
