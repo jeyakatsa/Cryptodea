@@ -27,7 +27,20 @@
 </head>
 	<body>
 		<div id="wrapper" class="text-dark">
-            <!--CODE TO BE ADDED-->
+            <form:form method="post" action="/cryptodea.com/create" modelAttribute="idea">
+				<form:label path="currency">Currency</form:label>
+				<form:input path="currency"/>
+				
+				<form:label path="acronym">Acronym</form:label>
+				<form:input path="acronym"/>
+				
+				<form:label path="creator">Creator</form:label>
+				<form:input path="creator"/>
+				
+				<form:label path="description">Description</form:label>
+				<form:input path="description"/>
+			<input type="submit" value="Create"/>
+			</form:form>
 		</div>
 	</body>
 </html>
