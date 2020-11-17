@@ -1,4 +1,4 @@
-package com.olena.groupProject.models;
+package com.cryptodea.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
