@@ -1,11 +1,11 @@
-package com.olena.groupProject.repositories;
+package com.cryptodea.repositories;
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.olena.groupProject.models.Idea;
+import com.cryptodea.models.Idea;
 
 @Repository
 public interface IdeaRepository extends CrudRepository<Idea,Long>{

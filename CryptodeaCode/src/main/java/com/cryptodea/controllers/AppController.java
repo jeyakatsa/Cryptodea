@@ -1,4 +1,4 @@
-package com.olena.groupProject.controllers;
+package com.cryptodea.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -9,8 +9,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.olena.groupProject.models.Idea;
-import com.olena.groupProject.services.IdeaService;
+import com.cryptodea.models.Idea;
+import com.cryptodea.services.IdeaService;
+
+
 
 @Controller
 @RequestMapping("/cryptodea.com")
