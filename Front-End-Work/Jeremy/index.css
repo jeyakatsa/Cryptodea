@@ -86,7 +86,6 @@
 		  border: none;
 		  font-size: 21px;
 		  height: 80px;
-
 	  }
 	  #tr:hover {
 		  transition-duration: .5s;
@@ -96,13 +95,14 @@
 	  }
 	  td {
 		  padding-top: 25px;
+		  padding-left: 25px;
+		  padding-right: 25px;
 	  }
 	  #delete {
 		  font-size: 15px;
 		  color: #e87ff5;
 		  text-decoration: none; 
-		  margin-right: 50px; 
-		  margin-left: 20px;
+		  margin-right: 50px;
 	  }
 	  #delete:hover{
 		  color: #e87ff5;

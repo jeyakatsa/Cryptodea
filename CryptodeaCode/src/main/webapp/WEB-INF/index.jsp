@@ -29,35 +29,28 @@
             <form action="/create">
 				<input id="create" type="submit" value="Create"/>
             </form>
-            <c:forEach items="${idea}" var="idea">
-					<c:choose>
-						<c:when test="${idea.id}=null">
-						</c:when>
-						<c:otherwise>
-                           <hr id="horizontal-line">
-						</c:otherwise>
-					</c:choose>
-			</c:forEach>
+            <hr id="horizontal-line">
 			<table id="table">
 				<thead>
-				<c:forEach items="${idea}" var="idea">
-					<c:choose>
-						<c:when test="${idea.id}=null">
-						</c:when>
-						<c:otherwise>
-							<th>CURRENCY</th>
-					        <th>ACRONYM</th>
-					        <th>CREATOR</th>
-						</c:otherwise>
-					</c:choose>
-				</c:forEach>
+					<th>CURRENCY</th>
+			        <th>ACRONYM</th>
+			        <th>CREATOR</th>
 				</thead>
 				<tbody>
-				<c:forEach items="${ideas}" var="idea">
+				<c:forEach items="${idea}" var="idea">
 					<tr id="tr">
-						<td>${idea.currency}</td>
-						<td>${idea.acronym}</td>
-						<td>${idea.creator}</td>
+						<td>
+							<a id="view" href="/${idea.id}">
+							${idea.currency}</a>
+						</td>
+						<td>
+							<a id="view" href="/${idea.id}">
+							${idea.acronym}</a>
+						</td>
+						<td>
+							<a id="view" href="/${idea.id}">
+							${idea.creator}</a>
+						</td>
 						<td><a id="delete" href="/delete/${idea.id}">Delete</a></td>
 					</tr>
 				</c:forEach>

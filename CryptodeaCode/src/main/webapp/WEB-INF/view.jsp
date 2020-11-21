@@ -20,11 +20,31 @@
 		<meta property="og:image:height" content="1024">
 		
 		<link rel="icon" type="image/png" href="/icons&images/Icon.png" sizes="156x156">
-	<title><!--<c:out value="${idea.name}"/>-->Name of Idea To Be Added</title>
+	<title><c:out value="${idea.currency}"/></title>
 </head>
 	<body>
 		<div id="wrapper" class="text-dark">
-            <!--CODE TO BE ADDED-->
+		    <h4><a id="logo" href="/">CRYPTODEA</a></h4>
+			    <div id="container">
+			    	<ul>
+					<li>Currency</li>
+					<li>Acronym</li>
+					<li>Creator</li>
+					<li>Description</li>
+				</ul>
+				<a href="/about">About</a>
+				<table class="table table-hover">
+					<tbody>
+						<tr>
+							<td>${ idea.currency }</td>
+							<td>${ idea.acronym }</td>
+							<td>${ idea.creator }</td>
+							<td>${ idea.description }</td>
+						</tr>
+					</tbody>
+				</table>
+				<a href="/delete/${idea.id}">Delete</a>
+		    </div>
 		</div>
 	</body>
 </html>
