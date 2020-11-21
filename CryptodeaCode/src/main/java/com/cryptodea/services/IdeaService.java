@@ -21,6 +21,10 @@ public class IdeaService {
 		return ideaRepository.findAll();
 	}
 	
+	public Idea findById(Long id) {
+		return this.ideaRepository.findById(id).orElse(null);
+	}
+	
 	public Idea saveIdea(Idea idea) {
 		return ideaRepository.save(idea);
 	}

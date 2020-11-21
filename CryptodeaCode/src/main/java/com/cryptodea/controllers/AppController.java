@@ -1,8 +1,13 @@
 package com.cryptodea.controllers;
 
+import java.util.List;
+
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -24,9 +29,10 @@ public class AppController {
 		this.ideaService = ideaService;
 	}
 	
-	@GetMapping("/")
+	@GetMapping("")
 	public String getIndex(Model model) {
-		model.addAttribute("ideas",ideaService.getIdeas());
+		List<Idea> ideas = this.ideaService.getIdeas();
+		model.addAttribute("ideas", ideas);
 		return "index.jsp";
 	}
 	
@@ -36,9 +42,21 @@ public class AppController {
 	}
 	
 	@PostMapping("/create")
-	public String saveIdea(@ModelAttribute("idea") Idea idea) {
-		ideaService.saveIdea(idea);
-		return "redirect:/";
+	public String saveIdea(@Valid @ModelAttribute("idea") Idea idea, BindingResult result, Model model) {
+		if(result.hasErrors()) {
+		    model.addAttribute("idea", idea);
+		    return "create.jsp";
+		}
+		else {
+			this.ideaService.saveIdea(idea);
+			return "redirect:/";			
+		}
+	}
+	
+	@GetMapping("/{id}")
+	private String showIdea(@PathVariable("id") Long id, Model model) {
+		model.addAttribute("idea", this.ideaService.findById(id));
+		return "view.jsp";
 	}
 	
 	@GetMapping("/delete/{id}")
