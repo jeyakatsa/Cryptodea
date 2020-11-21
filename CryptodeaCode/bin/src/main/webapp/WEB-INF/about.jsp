@@ -25,25 +25,8 @@
 </head>
 	<body>
 		<div id="wrapper" class="text-dark">
-		<ul id="desclist">
-			<li>ABOUT</li>
-			<li>TEAM</li>
-		</ul>
+		<p>This page works!</p>
             <!--CODE TO BE ADDED-->
-        <ul id="teamlist">
-	        <li id="about">A wild-west of cryptocurrency ideas. Cryptodea, short for Cryptocurrency-Idea is an open-source website where anyone can create and delete a cryptocurrency idea.</li>
-	        <li id="team">Front-End Engineer: *Name*<br>
-	        Github: *Website* <br>
-	        LinkedIn: *WebSite* <br>
-	        Software/Knowledge: *Description of development knowledge(i.e. Python, Git, JavaScript, HTML, etc)</li>
-	        <li id="team">Back-End Engineer: *Name*<br>
-	        Github: *Website* <br>
-	        LinkedIn: *WebSite* <br>
-	        Software/Knowledge: *Description of development knowledge(i.e. Java, Git, JavaScript, MySQL, etc)</li>
-	        <li id="team">Lead: *Name* <br>
-	        Github: *Website* <br>
-	        LinkedIn: *Website*</li>
-        </ul>
 		</div>
 	</body>
 </html>

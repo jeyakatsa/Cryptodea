@@ -28,16 +28,3 @@
 	  margin: 0 auto;
 	  margin-top: 50px;
        }/*      CODE TO BE ADDED  	    */
-#teamlist{
-	width: 33%;
-	float: left;
-	list-style: none;
-	font-family: Cooper Black, serif;
-}
-
-#desclist{
-	width: 33%;
-	float: left;
-	list-style: none;
-	font-family: Cooper Black, serif;
-}

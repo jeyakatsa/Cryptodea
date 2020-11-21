@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="/css/submitted.css">	
+		<link rel="stylesheet" type="text/css" href="/css/view.css">	
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
 			rel="stylesheet" >
 		<meta charset="ISO-8859-1">
@@ -26,25 +26,34 @@
 		<div id="wrapper" class="text-dark">
 		    <h4><a id="logo" href="/">CRYPTODEA</a></h4>
 			    <div id="container">
-			    	<ul>
+			    	<ul id="desclist">
 					<li>Currency</li>
 					<li>Acronym</li>
 					<li>Creator</li>
 					<li>Description</li>
+					<li><a href="/about">ABOUT</a></li>
 				</ul>
-				<a href="/about">About</a>
-				<table class="table table-hover">
-					<tbody>
-						<tr>
-							<td>${ idea.currency }</td>
-							<td>${ idea.acronym }</td>
-							<td>${ idea.creator }</td>
-							<td>${ idea.description }</td>
-						</tr>
-					</tbody>
-				</table>
-				<a href="/delete/${idea.id}">Delete</a>
+<!-- 				<a href="/about">About</a> -->
+				<ul id="idealist">
+					<li>${ idea.currency }</li>
+					<li>${ idea.acronym }</li>
+					<li>${ idea.creator }</li>
+					<li>Description</li>
+					<li><a href="/delete/${idea.id}">Delete</a></li>
+				</ul>
+<!-- 				<table class="table table-hover"> -->
+<!-- 					<tbody> -->
+<!-- 						<tr> -->
+<%-- 							<td>${ idea.currency }</td> --%>
+<%-- 							<td>${ idea.acronym }</td> --%>
+<%-- 							<td>${ idea.creator }</td> --%>
+<%-- 							<td>${ idea.description }</td> --%>
+<!-- 						</tr> -->
+<!-- 					</tbody> -->
+<!-- 				</table> -->
+<%-- 				<a href="/delete/${idea.id}">Delete</a> --%>
 		    </div>
 		</div>
+		<div class= "vertical"></div>
 	</body>
 </html>

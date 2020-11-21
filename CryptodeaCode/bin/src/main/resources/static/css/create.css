@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "Cooper Black";
-  src: url("/fonts/cooper-black.otf");
-}
 * {
 	vertical-align: baseline;
 	font-weight: inherit;
@@ -27,17 +23,5 @@
 #wrapper {
 	  margin: 0 auto;
 	  margin-top: 50px;
-       }/*      CODE TO BE ADDED  	    */
-#teamlist{
-	width: 33%;
-	float: left;
-	list-style: none;
-	font-family: Cooper Black, serif;
-}
-
-#desclist{
-	width: 33%;
-	float: left;
-	list-style: none;
-	font-family: Cooper Black, serif;
-}
+       }
+       /*      CODE TO BE ADDED  	    */
