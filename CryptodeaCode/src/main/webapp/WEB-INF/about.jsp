@@ -25,6 +25,7 @@
 </head>
 	<body>
 		<div id="wrapper" class="text-dark">
+		<p>This page works!</p>
             <!--CODE TO BE ADDED-->
 		</div>
 	</body>

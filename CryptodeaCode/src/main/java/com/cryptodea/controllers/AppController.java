@@ -30,9 +30,9 @@ public class AppController {
 	}
 	
 	@GetMapping("")
-	public String getIndex(Model model) {
+	public String getIndex(@ModelAttribute("idea") Idea idea, Model model) {
 		List<Idea> ideas = this.ideaService.getIdeas();
-		model.addAttribute("ideas", ideas);
+		model.addAttribute("idea", ideas);
 		return "index.jsp";
 	}
 	
@@ -61,7 +61,12 @@ public class AppController {
 	
 	@GetMapping("/delete/{id}")
 	public String delIdea(@PathVariable("id") Long id) {
-		ideaService.deleteIdea(id);
+		this.ideaService.deleteIdea(id);
 		return "redirect:/";
+	}
+	
+	@GetMapping("/about")
+	public String about() {
+		return "about.jsp";
 	}
 }
