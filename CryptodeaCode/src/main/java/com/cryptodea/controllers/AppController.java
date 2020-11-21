@@ -15,7 +15,7 @@ import com.cryptodea.services.IdeaService;
 
 
 @Controller
-@RequestMapping("/cryptodea.com")
+@RequestMapping("/")
 public class AppController {
 	@Autowired
 	private IdeaService ideaService;
