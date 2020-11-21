@@ -26,7 +26,7 @@
 </head>
 	<body>
 		<div id="wrapper" class="text-dark">
-			<h2 id="welcome">CRYPTODEA</h2>
+			<h2 id="logo">CRYPTODEA</h2>
 			<br>
 			<h4>CREATE AND DELETE ANY CRYPTOCURRENCY IDEA</h4>
             <br>
@@ -40,7 +40,8 @@
 				<thead>
 					<th>CURRENCY</th>
 					<th>ACRONYM</th>
-                    <th>CREATOR</th>
+					<th>CREATOR</th>
+					<th>DELETE</th>
 				</thead>
 				<tbody>
 				<c:forEach items="${ideas}" var="idea">
@@ -48,7 +49,7 @@
 						<td>${idea.currency}</td>
 						<td>${idea.acronym}</td>
 						<td>${idea.creator}</td>
-						<td><a href="/cryptodea.com/delete/${idea.id}">Delete</a></td>
+						<td><a href="/cryptodea.com/delete/${idea.id}">X</a></td>
 					</tr>
 				</c:forEach>
 				</tbody>
