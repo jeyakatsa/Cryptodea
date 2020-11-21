@@ -5,6 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
 @Entity
@@ -13,10 +14,14 @@ public class Idea {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
+	@NotBlank (message="Required")
 	private String currency;
+	@NotBlank (message="Required")
 	@Size(max=5)
 	private String acronym;
+	@NotBlank (message="Required")
 	private String creator;
+	@NotBlank (message="Required")
 	private String description;
 	public Long getId() {
 		return id;

@@ -38,12 +38,12 @@ public class AppController {
 	@PostMapping("/create")
 	public String saveIdea(@ModelAttribute("idea") Idea idea) {
 		ideaService.saveIdea(idea);
-		return "redirect:/cryptodea.com/";
+		return "redirect:/";
 	}
 	
 	@GetMapping("/delete/{id}")
 	public String delIdea(@PathVariable("id") Long id) {
 		ideaService.deleteIdea(id);
-		return "redirect:/cryptodea.com/";
+		return "redirect:/";
 	}
 }
