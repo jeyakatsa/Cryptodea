@@ -25,23 +25,23 @@
 	<body>
 		<div id="wrapper" class="text-dark">
 			<div id="left-container">
-			    <ul>
-					<li>Currency</li>
-					<li>Acronym</li>
-					<li>Creator</li>
-					<li>Description</li>
+			    <ul id="left">
+					<li id="currency">Currency</li>
+					<li id="acronym">Acronym</li>
+					<li id="creator">Creator</li>
+					<li id="description">Description</li>
 				</ul>
-				<a href="/about">About</a>
+				<a id="a1" href="/about">About</a>
 			</div>
 			<div id="right-container">
 				<h4><a id="logo" href="/">CRYPTODEA</a></h4>
-				<ul>
+				<ul id="right">
 					<li>${ idea.currency }</li>
 					<li>${ idea.acronym }</li>
 					<li>${ idea.creator }</li>
 					<li>${ idea.description }</li>
 				</ul>
-				<a href="/delete/${idea.id}">Delete</a>
+				<a id="a2" href="/delete/${idea.id}">Delete</a>
 			</div>
 		</div>
 	</body>

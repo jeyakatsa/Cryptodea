@@ -34,6 +34,7 @@
 		 	padding-right: 40px;
 		 	vertical-align:top;
   			border-right: 2px solid #e853fc;
+  			text-align: right;
 		 }
 			 ul {
 			 	list-style-type: none;
@@ -47,6 +48,9 @@
 		 	display: inline-block;
 		 	vertical-align: top;
 		    margin-top: 60px;
+		    text-align: left;
+		    width: 600px;
+		    margin-bottom: 80px;
 		 }
 		 	#logo{
 				 color: #ad00c2;
@@ -76,9 +80,6 @@
 			 }
 			 #team-2, #team-3 {
 			 	margin-bottom: 40px;
-			 }
-			 #team-4 {
-			 	margin-bottom: 80px;
 			 }
 			 #p,#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9,
 			 #p10,#p11 {
