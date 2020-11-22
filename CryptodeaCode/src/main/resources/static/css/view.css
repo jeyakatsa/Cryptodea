@@ -1,57 +1,78 @@
 * {
-	vertical-align: baseline;
-	font-weight: inherit;
-    font-style: inherit;
-    font-family: Cooper Black, serif;
-	font-size: 100%;
-	outline: 0;
-    margin: 0 auto;
+	  vertical-align: baseline;
+	  font-weight: inherit;
+	  font-style: inherit;
+	  font-family: Arial, serif;
+	  font-size: 100%;
+	  outline: 0;
+	  margin: 0 auto;
+	  }
+	  
+  @media screen and (max-width: 700px) {
+	body {
+	  -webkit-text-size-adjust: none;
 	}
-	
-@media screen and (max-width: 700px) {
-  body {
-    -webkit-text-size-adjust: none;
   }
-}
-
-@media screen and (max-width: 400px) {
-  body {
-    -webkit-text-size-adjust: none;
-  }
-}
-
+  
+  @media screen and (max-width: 400px) {
+	body {
+	  -webkit-text-size-adjust: none;
+	}
+  
   #wrapper {
-		width: 1000px;
 		margin: 0 auto;
-		margin-top: 150px;
+		width: 750px;
+		display: flex;
 		 }
-/*      CODE TO BE ADDED  	    */
-#logo{
-	color: #ad00c2;
-	text-align: center;
-	letter-spacing: 12px;
-	font-size: 50px;
-	font-weight: 600;
-	margin-bottom: 20px;
-	font-family: Arial, serif;
-	margin-left: 350px;
-}
-#desclist{
-	width: 33%;
-	float: left;
-	list-style: none;
-	font-family: Cooper Black, serif;
-}
-#idealist{
-	width: 33%;
-	float: left;
-	list-style: none;
-	font-family: Cooper Black, serif;
-}
-li{
-	padding: 15px
-}
-.vertical { 
-    border-left: 5px solid black; 
-    height: 200px; 
-} 
+		 #left-container{
+		 	font-size: 13px;
+		 	color: gray;
+		 	height: auto;
+		 	text-decoration: none;
+		 	display: inline-block;
+		 	padding-right: 40px;
+		 	vertical-align:top;
+  			border-right: 2px solid #e853fc;
+		 }
+			 ul {
+			 	list-style-type: none;
+			 }
+			 #about {
+			 	margin-top: 160px;
+			 	padding-bottom: 60px;
+			 }
+		 #right-container{
+		 	color: gray;
+		 	display: inline-block;
+		 	vertical-align: top;
+		    margin-top: 70px;
+		 }
+		 	#logo{
+				 color: #ad00c2;
+				 text-align: center;
+				 letter-spacing: 6px;
+				 font-size: 30px;
+				 font-weight: 600;
+				 margin-left: 40px;
+				 text-decoration: none;
+			 }
+			 #logo:hover {
+				color: #e853fc;
+				transition-duration: .5s;
+			 }
+			 #right {
+			 	margin-top: 50px;
+			 	font-size: 17px;
+			 	text-decoration: none;
+			 }
+			 #team {
+			 	margin-top: 45px;
+			 }
+			 li {
+			 	margin-bottom: 50px;
+			 	line-height: 30px;
+			 	text-decoration: none;
+			 }
+			 p{
+			 	margin-bottom: -15px;
+			 }
