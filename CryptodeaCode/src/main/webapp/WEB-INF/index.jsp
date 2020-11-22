@@ -31,25 +31,21 @@
             </form>
             <hr id="horizontal-line">
 			<table id="table">
-				<thead>
+<!-- 				<thead>
 					<th>CURRENCY</th>
 			        <th>ACRONYM</th>
 			        <th>CREATOR</th>
-				</thead>
+				</thead> -->
 				<tbody>
 				<c:forEach items="${idea}" var="idea">
 					<tr id="tr">
-						<td>
-							<a id="view" href="/${idea.id}">
-							${idea.currency}</a>
-						</td>
 						<td>
 							<a id="view" href="/${idea.id}">
 							${idea.acronym}</a>
 						</td>
 						<td>
 							<a id="view" href="/${idea.id}">
-							${idea.creator}</a>
+							${idea.currency}</a>
 						</td>
 						<td><a id="delete" href="/delete/${idea.id}">Delete</a></td>
 					</tr>
