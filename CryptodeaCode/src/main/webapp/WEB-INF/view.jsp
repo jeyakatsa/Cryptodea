@@ -24,8 +24,7 @@
 </head>
 	<body>
 		<div id="wrapper" class="text-dark">
-		    <h4><a id="logo" href="/">CRYPTODEA</a></h4>
-			<div id="container">
+			<div id="left-container">
 			    <ul>
 					<li>Currency</li>
 					<li>Acronym</li>
@@ -33,18 +32,17 @@
 					<li>Description</li>
 				</ul>
 				<a href="/about">About</a>
-				<table class="table table-hover">
-					<tbody>
-						<tr>
-							<td>${ idea.currency }</td>
-							<td>${ idea.acronym }</td>
-							<td>${ idea.creator }</td>
-							<td>${ idea.description }</td>
-						</tr>
-					</tbody>
-				</table>
+			</div>
+			<div id="right-container">
+				<h4><a id="logo" href="/">CRYPTODEA</a></h4>
+				<ul>
+					<li>${ idea.currency }</li>
+					<li>${ idea.acronym }</li>
+					<li>${ idea.creator }</li>
+					<li>${ idea.description }</li>
+				</ul>
 				<a href="/delete/${idea.id}">Delete</a>
-		    </div>
+			</div>
 		</div>
 	</body>
 </html>
