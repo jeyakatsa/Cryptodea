@@ -25,8 +25,8 @@
 	<body>
 		<div id="wrapper" class="text-dark">
 		    <h4><a id="logo" href="/">CRYPTODEA</a></h4>
-			    <div id="container">
-			    	<ul>
+			<div id="container">
+			    <ul>
 					<li>Currency</li>
 					<li>Acronym</li>
 					<li>Creator</li>

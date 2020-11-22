@@ -58,7 +58,7 @@
 			 margin-top: 10px;
 		 }
 		 #create:hover{
-			opacity: 0.4;
+			background-color: #e853fc;
 			transition-duration: .5s;
 			box-shadow: none;
 		   }

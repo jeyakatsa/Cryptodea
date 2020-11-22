@@ -31,7 +31,7 @@
             </form>
             <hr id="horizontal-line">
 			<table id="table">
-<!-- 				<thead>
+            <!--<thead>
 					<th>CURRENCY</th>
 			        <th>ACRONYM</th>
 			        <th>CREATOR</th>

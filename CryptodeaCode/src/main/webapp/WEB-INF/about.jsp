@@ -25,8 +25,50 @@
 </head>
 	<body>
 		<div id="wrapper" class="text-dark">
-		<p>This page works!</p>
-            <!--CODE TO BE ADDED-->
+			<div id="left-container">
+				<ul id="left">
+					<li id="about">About</li>
+					<li>Team</li>
+				</ul>
+			</div>
+			<div id="right-container">
+				<h4><a id="logo" href="/">CRYPTODEA</a></h4>
+			    <ul id="right">
+					<li>A wild-west of cryptocurrency ideas, Cryptodea, short for Cryptocurrency-Idea 
+					is an open-source website where anyone can create and delete a cryptocurrency idea.
+					</li>
+					<li id="team">
+						<p>Back-End Engineer: Olena Kasiianyk</p>
+						<p>Github: <a href="https://github.com/okasiianyk">
+							github.com/okasiianyk</a></p>
+						<p>LinkedIn: <a href="https://www.linkedin.com/in/olena-kasiianyk">
+							linkedin.com/in/olena-kassianyk</a></p>
+						<p>Tech-Stack Knowledge: Java, C++, Spring Boot, JavaScript, SQL, 
+							HTML, CSS, Bootstrap.</p>
+					</li>
+					<li>
+						<p>Back-End Engineer: Ozair Waseem</p>
+						<p>Github: <a href="https://github.com/ozairkwaseem">
+							github.com/ozairkwaseem</a></p>
+						<p>LinkedIn: <a href="http://linkedin.com/in/ozair-waseem">
+							linkedin.com/in/ozair-waseem</a></p>
+						<p>Tech-Stack Knowledge: JavaScript, Java, Spring Boot, MySQL, 
+							HTML, CSS, AWS, Git, Github & Terminal, Responsive Web Design, Balsamiq, Bootstrap.</p>
+					</li>
+					<li>
+						<p>Front-End Engineer: Justin Skocylas</p>
+						<p>Github: <a href="">To-Be-Added</a></p>
+						<p>LinkedIn: <a href="">To-Be-Added</a></p>
+						<p>Tech-Stack Knowledge: To Be Added.</p>
+					</li>
+					<li>
+						<p>Lead: Jeremy Akatsa</p>
+						<p>Github: <a href="">To-Be-Added</a></p>
+						<p>LinkedIn: <a href="">To-Be-Added</a></p>
+						<p>Tech-Stack Knowledge: To Be Added.</p>
+					</li>					
+				</ul>
+		    </div>
 		</div>
 	</body>
 </html>
