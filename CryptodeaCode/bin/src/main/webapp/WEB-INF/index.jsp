@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="/css/submitted.css">	
+		<link rel="stylesheet" type="text/css" href="css/index.css">	
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
 			rel="stylesheet" >
 		<meta charset="ISO-8859-1">
@@ -13,36 +13,49 @@
 		<meta name="keywords" content="Create And Delete Any Cryptocurrency Idea"/>
 		<meta name="author" content="Cryptodea Team"/>
 		<meta name="viewport" id="viewport" content="width=device-width,user-scalable=yes,initial-scale=1" />
-				
+			
 		<meta property="og:image" content="/icons&images/Banner.png">
 		<meta property="og:image:type" content="image/png">
 		<meta property="og:image:width" content="1024">
 		<meta property="og:image:height" content="1024">
 		
 		<link rel="icon" type="image/png" href="/icons&images/Icon.png" sizes="156x156">
-	<title><c:out value="${idea.currency}"/></title>
+	<title>Cryptodea</title>
 </head>
 	<body>
 		<div id="wrapper" class="text-dark">
-			<div id="left-container">
-			    <ul>
-					<li>Currency</li>
-					<li>Acronym</li>
-					<li>Creator</li>
-					<li>Description</li>
-				</ul>
-				<a href="/about">About</a>
-			</div>
-			<div id="right-container">
-				<h4><a id="logo" href="/">CRYPTODEA</a></h4>
-				<ul>
-					<li>${ idea.currency }</li>
-					<li>${ idea.acronym }</li>
-					<li>${ idea.creator }</li>
-					<li>${ idea.description }</li>
-				</ul>
-				<a href="/delete/${idea.id}">Delete</a>
-			</div>
+			<h2 id="logo">CRYPTODEA</h2>
+			<h4 id="heading">CREATE AND DELETE ANY CRYPTOCURRENCY IDEA</h4>
+            <form action="/create">
+				<input id="create" type="submit" value="Create"/>
+            </form>
+            <hr id="horizontal-line">
+			<table id="table">
+				<thead>
+					<th>CURRENCY</th>
+			        <th>ACRONYM</th>
+			        <th>CREATOR</th>
+				</thead>
+				<tbody>
+				<c:forEach items="${idea}" var="idea">
+					<tr id="tr">
+						<td>
+							<a id="view" href="/${idea.id}">
+							${idea.currency}</a>
+						</td>
+						<td>
+							<a id="view" href="/${idea.id}">
+							${idea.acronym}</a>
+						</td>
+						<td>
+							<a id="view" href="/${idea.id}">
+							${idea.creator}</a>
+						</td>
+						<td><a id="delete" href="/delete/${idea.id}">Delete</a></td>
+					</tr>
+				</c:forEach>
+				</tbody>
+			</table>
 		</div>
 	</body>
 </html>
