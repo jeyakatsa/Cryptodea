@@ -28,7 +28,7 @@
 	<body>
 		<div id="wrapper" class="text-dark">
 		    <h4><a id="logo" href="/">CRYPTODEA</a></h4>
-            <p>CREATE A CRYPTOCURRENCY IDEA</p>
+            <p id="heading">CREATE A CRYPTOCURRENCY IDEA</p>
 	        <div id="container">
 	        	<form:form  action="/create" method="post" modelAttribute="idea">
 					<div class="form-group" id="enter-content">
@@ -49,7 +49,7 @@
 					<div class="form-group" id="enter-content">
 						<form:label id="label" path="description">Description</form:label>						
 						<form:errors id="errors" path="description"></form:errors>
-						<form:input id="input" class="form-control" path="description"></form:input>
+						<form:input id="inputdescription" class="form-control" path="description"></form:input>
 					</div>											
 					<br>
 				    <input id="create" type="submit" value="Create"/>
