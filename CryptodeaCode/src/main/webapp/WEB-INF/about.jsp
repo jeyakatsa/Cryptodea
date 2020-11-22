@@ -34,38 +34,44 @@
 			<div id="right-container">
 				<h4><a id="logo" href="/">CRYPTODEA</a></h4>
 			    <ul id="right">
-					<li>A wild-west of cryptocurrency ideas, Cryptodea, short for Cryptocurrency-Idea 
+					<li id="description">A wild-west of cryptocurrency ideas, Cryptodea, short for Cryptocurrency-Idea 
 					is an open-source website where anyone can create and delete a cryptocurrency idea.
 					</li>
 					<li id="team">
-						<p>Back-End Engineer: Olena Kasiianyk</p>
-						<p>Github: <a href="https://github.com/okasiianyk">
+						<p id="p">Back-End Engineer: Olena Kasiianyk</p>
+						<p id="p1">Github: <a id="a1" href="https://github.com/okasiianyk" target="_blank">
 							github.com/okasiianyk</a></p>
-						<p>LinkedIn: <a href="https://www.linkedin.com/in/olena-kasiianyk">
+						<p id="p2">LinkedIn: <a id="a2" href="https://www.linkedin.com/in/olena-kasiianyk" target="_blank">
 							linkedin.com/in/olena-kassianyk</a></p>
-						<p>Tech-Stack Knowledge: Java, C++, Spring Boot, JavaScript, SQL, 
+						<p id="techstack1">Tech-Stack Knowledge: Java, C++, Spring Boot, JavaScript, SQL, 
 							HTML, CSS, Bootstrap.</p>
 					</li>
-					<li>
-						<p>Back-End Engineer: Ozair Waseem</p>
-						<p>Github: <a href="https://github.com/ozairkwaseem">
+					<li id="team-2">
+						<p id="p3">Back-End Engineer: Ozair Waseem</p>
+						<p id="p4">Github: <a id="a3" href="https://github.com/ozairkwaseem" target="_blank">
 							github.com/ozairkwaseem</a></p>
-						<p>LinkedIn: <a href="http://linkedin.com/in/ozair-waseem">
+						<p id="p5">LinkedIn: <a id="a4" href="http://linkedin.com/in/ozair-waseem" target="_blank">
 							linkedin.com/in/ozair-waseem</a></p>
-						<p>Tech-Stack Knowledge: JavaScript, Java, Spring Boot, MySQL, 
+						<p id="techstack2">Tech-Stack Knowledge: JavaScript, Java, Spring Boot, MySQL, 
 							HTML, CSS, AWS, Git, Github & Terminal, Responsive Web Design, Balsamiq, Bootstrap.</p>
 					</li>
-					<li>
-						<p>Front-End Engineer: Justin Skocylas</p>
-						<p>Github: <a href="">To-Be-Added</a></p>
-						<p>LinkedIn: <a href="">To-Be-Added</a></p>
-						<p>Tech-Stack Knowledge: To Be Added.</p>
+					<li id="team-3">
+						<p id="p6">Front-End Engineer: Justin Skocylas</p>
+						<p id="p7">Github: <a id="a5" href="https://github.com/JSkuzz" target="_blank">
+							github.com/jskuzz</a></p>
+						<p id="p8">LinkedIn: <a id="a6" href="https://www.linkedin.com/in/justin-skoczylas-/" target="_blank">
+							linkedin.com/in/justin-skocylas-</a></p>
+						<p id="techstack3">Tech-Stack Knowledge: JavaScript, Java, Spring Boot, MySQL, HTML, 
+							Git, Github, Terminal, Balsamiq, Bootstrap.</p>
 					</li>
-					<li>
-						<p>Lead: Jeremy Akatsa</p>
-						<p>Github: <a href="">To-Be-Added</a></p>
-						<p>LinkedIn: <a href="">To-Be-Added</a></p>
-						<p>Tech-Stack Knowledge: To Be Added.</p>
+					<li id="team-4">
+						<p id="p9">Lead: Jeremy Akatsa</p>
+						<p id="p10">Github: <a id="a7" href="https://github.com/jeyakatsa" target="_blank">
+							github.com/jeyakatsa</a></p>
+						<p id="p11">LinkedIn: <a id="a8" href="https://www.linkedin.com/in/jeremyakatsa" target="_blank">
+							linkedin.com/in/jeremyakatsa</a></p>
+						<p id="techstack4">Tech-Stack Knowledge: Java, Javascript, Spring Boot, MySQL, 
+							HTML, CSS, AWS, Git, Github & Terminal, Responsive Web Design, Balsamiq, Bootstrap.</p>
 					</li>					
 				</ul>
 		    </div>
