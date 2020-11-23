@@ -48,8 +48,20 @@
 			 	margin-top: 150px;
 			 	margin-bottom: 50px;
 			 }
-			 #currency,#acronym,#creator,#description {
+			 #currency,#acronym,#creator{
 			 	margin-bottom: 50px;
+			 }
+			 #description {
+			 	margin-bottom: 140px;
+			 }
+			 #a1{
+			 	text-decoration: none;
+			 	color: #ad00c2;
+			 	font-weight: 600;
+			 }
+			 #a1:hover {
+				transition-duration: .5s;
+				color: #e853fc;
 			 }
 		 #right-container{
 		 	color: gray;
@@ -78,15 +90,6 @@
 			 	font-size: 21px;
 			 	text-decoration: none;
 			 }
-			 #a1{
-			 	text-decoration: none;
-			 	color: #ad00c2;
-			 	font-weight: 600;
-			 }
-			 #a1:hover {
-				transition-duration: .5s;
-				color: #e853fc;
-			 }
 			 #a2{
 			 	font-size: 15px;
 			 	font-weight: 600;
@@ -99,4 +102,29 @@
 			 	transition-duration: .5s;
 				opacity: .4;
 			 }
+
+/* Mobile UI Below  */
+
+  @media screen and (max-width: 950px) {
+	body {
+	  -webkit-text-size-adjust: none;
+	}
+	#wrapper {
+		width: 400px;
+	}
+		#logo, #a2 {
+			margin-left: 10px;
+		}
+		#right {
+			margin-left: -30px;
+		}
+		 #left-container{
+  			width: 120px;
+  			padding-right: 10px;
+		 }
+		 #right-container{
+		    width: 300px;
+		 }		 
+		   
+    }
 

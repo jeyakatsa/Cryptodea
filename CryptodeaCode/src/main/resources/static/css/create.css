@@ -126,7 +126,7 @@
 	  -webkit-text-size-adjust: none;
 	}
 	#wrapper {
-		width: 400px;
+		width: 480px;
 	}
 		 #logo{
 			 letter-spacing: 5px;
@@ -134,7 +134,7 @@
 		 }
 	 #heading{
 		letter-spacing: 2px;
-		font-size: 12px;
+		font-size: 13px;
 		margin-bottom: 40px;
 		opacity: .7;
 	 }
