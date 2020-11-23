@@ -21,11 +21,11 @@ public class Idea {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
-	@Size(max=10, min=1, message="Required to be less than 10 letters long")
+	@Size(max=15, min=1, message="Required to be less than 15 letters long")
 	private String currency;
 	@Size(max=5, min=3, message="Required to be between 3 and 5 letters long")
 	private String acronym;
-	@Size(max=10, min=1, message="Required to be less than 10 letters long")
+	@Size(max=15, min=1, message="Required to be less than 15 letters long")
 	private String creator;
 	@NotBlank (message="Required")
 	private String description;
