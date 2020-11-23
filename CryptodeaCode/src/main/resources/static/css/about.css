@@ -95,4 +95,37 @@
 				transition-duration: .5s;
 				opacity: .4;
 			 }
+			 
+/* Mobile UI Below  */
+
+  @media screen and (max-width: 950px) {
+	body {
+	  -webkit-text-size-adjust: none;
+	}
+	#wrapper {
+		width: 400px;
+	}
+		#logo {
+			margin-left: 10px;
+		}
+		#right {
+			margin-left: -30px;
+			font-size: 13px;
+		}
+		 #left-container{
+  			width: 120px;
+  			padding-right: 10px;
+		 }
+		 #right-container{
+		    width: 300px;
+		 }	
+		 #about {
+		 	margin-bottom: 140px;
+		 }
+		 	#description, #techstack1, #techstack2,
+			 #techstack3, #techstack4 {
+			 	line-height: 25px;
+			 }		 	 
+		   
+    }			 
 

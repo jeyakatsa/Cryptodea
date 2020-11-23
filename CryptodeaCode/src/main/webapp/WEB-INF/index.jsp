@@ -40,11 +40,11 @@
 				<c:forEach items="${idea}" var="idea">
 					<tr id="tr">
 						<td>
-							<a id="view" href="/${idea.id}">
+							<a id="acronymname" href="/${idea.id}">
 							${idea.acronym}</a>
 						</td>
 						<td>
-							<a id="view" href="/${idea.id}">
+							<a id="currencyname" href="/${idea.id}">
 							${idea.currency}</a>
 						</td>
 						<td><a id="delete" href="/delete/${idea.id}">Delete</a></td>

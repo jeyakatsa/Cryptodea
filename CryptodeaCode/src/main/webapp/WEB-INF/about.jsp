@@ -34,8 +34,8 @@
 			<div id="right-container">
 				<h4><a id="logo" href="/">CRYPTODEA</a></h4>
 			    <ul id="right">
-					<li id="description">A wild-west of cryptocurrency ideas, Cryptodea, short for Cryptocurrency-Idea 
-					is an open-source website where anyone can create and delete a cryptocurrency idea.
+					<li id="description">A wild-west of crypto ideas, Cryptodea, short for Crypto-Idea 
+					is an open-source website where anyone can create and delete any cryptocurrency idea.
 					</li>
 					<li id="team">
 						<p id="p">Back-End Engineer: Olena Kasiianyk</p>
