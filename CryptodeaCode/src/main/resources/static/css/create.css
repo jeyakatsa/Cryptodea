@@ -54,14 +54,6 @@
            	  margin: 0 auto;  
            	  margin-bottom: 80px;    
            }
-       	   p{
-       	      text-align:center;
-       	      margin: 0 auto;
-       	      font-size: 20px;
-       	      font-family: Arial;
-       	      letter-spacing: 10px;
-       	      color: gray;
-       	   }
        	   #label{
        	   		color: gray;
        	   		font-family: Arial;
@@ -126,25 +118,33 @@
 	  -webkit-text-size-adjust: none;
 	}
 	#wrapper {
-		width: 480px;
+		width: 350px;
 	}
 		 #logo{
 			 letter-spacing: 5px;
 			 font-size: 33px;
 		 }
+		 
+		     #errors{
+       	   		font-size: 11px;
+       	   }
+       	        #label{
+       	   		color: gray;
+       	   		font-family: Arial;
+       	   		font-weight: 600;
+       	   		font-size: 13px;
+       	   		margin-left: 30px;
+       	   }
 	 #heading{
 		letter-spacing: 2px;
-		font-size: 13px;
+		font-size: 11px;
 		margin-bottom: 40px;
 		opacity: .7;
 	 }
 	hr {
 		width: 300px;
 	}
-		#table{
-			width: 400px;
-		   }
            #container {
-           	  width: 400px;  
+           	  width: 350px;  
            }		   
     }		   
