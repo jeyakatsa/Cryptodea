@@ -148,21 +148,7 @@
 	}
 		#table{
 			width: 650px;
-		   }
-			p{
-		padding-top: 25px;
-		text-align:center;
-		font-size: 13px;
-		}
-		 #a1{
-		 	text-decoration: none;
-		 	color: #ad00c2;
-		 	font-weight: 600;
-		 }
-		 #a1:hover {
-			transition-duration: .5s;
-			color: #e853fc;
-		 }		   	
+		   }	   	
     }
     
   
@@ -199,19 +185,5 @@
 		}
 		#delete {
 			font-size: 12px;
-		}
-			p{
-		padding-top: 25px;
-		text-align:center;
-		font-size: 13px;
-		}
-		 #a1{
-		 	text-decoration: none;
-		 	color: #ad00c2;
-		 	font-weight: 600;
-		 }
-		 #a1:hover {
-			transition-duration: .5s;
-			color: #e853fc;
-		 }		   
+		}   
     }
