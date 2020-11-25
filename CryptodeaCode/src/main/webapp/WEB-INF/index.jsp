@@ -52,6 +52,7 @@
 				</c:forEach>
 				</tbody>
 			</table>
+			<p><a id="a1" href="/about">About</a></p>
 		</div>
 	</body>
 </html>
