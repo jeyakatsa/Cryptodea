@@ -11,7 +11,7 @@
   #wrapper {
 		width: 900px;
 		margin: 0 auto;
-		margin-top: 150px;
+		margin-top: 100px;
 		margin-bottom: 100px;
 		 }
 		 #logo{
@@ -79,7 +79,6 @@
 		}
 		td {
 			padding-top: 25px;
-		    padding-right: 10px;
 		}
 		#acronymname {
 			text-decoration: none; 
@@ -111,6 +110,20 @@
 			opacity: .4;
 			transition-duration: .5s;
 		}
+		p{
+		padding-top: 25px;
+		text-align:center;
+		font-size: 13px;
+		}
+		 #a1{
+		 	text-decoration: none;
+		 	color: #ad00c2;
+		 	font-weight: 600;
+		 }
+		 #a1:hover {
+			transition-duration: .5s;
+			color: #e853fc;
+		 }		
 		
 /* Mobile UI Below  */
 
@@ -120,6 +133,7 @@
 	}
 	#wrapper {
 		width: 650px;
+		margin-top: 100px;
 	}
 	   #logo{
 			 letter-spacing: 9px;
@@ -134,8 +148,23 @@
 	}
 		#table{
 			width: 650px;
-		   }	
+		   }
+			p{
+		padding-top: 25px;
+		text-align:center;
+		font-size: 13px;
+		}
+		 #a1{
+		 	text-decoration: none;
+		 	color: #ad00c2;
+		 	font-weight: 600;
+		 }
+		 #a1:hover {
+			transition-duration: .5s;
+			color: #e853fc;
+		 }		   	
     }
+    
   
   @media screen and (max-width: 700px) {
 	body {
@@ -143,6 +172,7 @@
 	}
 	#wrapper {
 		width: 400px;
+		margin-top: 100px;
 	}
 		 #logo{
 			 letter-spacing: 9px;
@@ -169,5 +199,19 @@
 		}
 		#delete {
 			font-size: 12px;
-		}		   
+		}
+			p{
+		padding-top: 25px;
+		text-align:center;
+		font-size: 13px;
+		}
+		 #a1{
+		 	text-decoration: none;
+		 	color: #ad00c2;
+		 	font-weight: 600;
+		 }
+		 #a1:hover {
+			transition-duration: .5s;
+			color: #e853fc;
+		 }		   
     }
