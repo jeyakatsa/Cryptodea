@@ -16,7 +16,7 @@
 		<meta name="author" content="Cryptodea Team">
 		<meta name="viewport" id="viewport" content="width=device-width,user-scalable=yes,initial-scale=1" >
 			
-		<meta property="og:image" content="https://user-images.githubusercontent.com/51394348/100296991-7871c100-2f42-11eb-92a5-36588b26e54e.png">
+		<meta property="og:image" content="https://user-images.githubusercontent.com/51394348/100303454-5df31400-2f51-11eb-936b-20ac637d0197.jpg">
 		<meta property="og:image:type" content="image/png">
 		<meta property="og:image:width" content="1024">
 		<meta property="og:image:height" content="1024">
