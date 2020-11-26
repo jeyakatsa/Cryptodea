@@ -10,7 +10,7 @@
 			
 		<meta charset="UTF-8">
 		<meta name="title" content="Cryptodea">
-		<meta name="description" content="Create And Delete Any Cryptocurrency Idea.">
+		<meta name="description" content="Create and delete any cryptocurrency idea.">
 		<meta name="google" content="nositelinkssearchbox">
 		<meta name="keywords" content="Create Cryptocurrency, Cryptocurrency, Currency, Cryptocyrrency Idea.">
 		<meta name="author" content="Cryptodea Team">
@@ -22,7 +22,7 @@
 		<meta property="og:image:height" content="1024">
 		<meta property="og:title" content="Cryptodea">
 		<meta property="og:site_name" content="Cryptodea">	
-		<meta property="og:description" content="Create And Delete Any Cryptocurrency Idea.">	
+		<meta property="og:description" content="Create and delete any cryptocurrency idea.">
 		
 		<link rel="icon" type="image/png" href="/icons&images/Icon.ico" sizes="156x156">
 		
