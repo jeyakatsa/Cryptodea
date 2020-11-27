@@ -22,24 +22,18 @@
 		<link rel="icon" type="image/x-icon" href="/icons&images/Icon.ico" sizes="156x156">
 		<link rel="canonical" href="https://cryptodea.com">
 		
-		<meta property="og:image" content="https://user-images.githubusercontent.com/51394348/100401583-c3f1a100-300e-11eb-8339-aa976cab39db.jpg">	
+		<meta property="og:image" content="https://user-images.githubusercontent.com/51394348/100407550-8ba58f00-301d-11eb-9982-e7243ab2b60d.jpg">	
+		<meta property="og:site_name" content="Cryptodea">	
+		<meta property="og:type" content="object">				
 		<meta property="og:title" content="Cryptodea">
 		<meta propety="og:url" content="https://cryptodea.com">
-		<meta property="og:site_name" content="Cryptodea">	
 		<meta property="og:description" content="Create and delete any cryptocurrency idea.">
-		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:type" content="image/jpg">
 		<meta property="og:image:width" content="700">
-		<meta property="og:image:height" content="500">
+		<meta property="og:image:height" content="400">
 		
-		<meta itemprop="name" content="Cryptodea">
-		<meta itemprop="url" content="https://cryptodea.com">
-		<meta itemprop="description" content="Create and delete any cryptocurrency idea.">
-		<meta itemprop="thumbnailUrl" content="https://user-images.githubusercontent.com/51394348/100401583-c3f1a100-300e-11eb-8339-aa976cab39db.jpg">
-		<link rel="image_src" href="https://user-images.githubusercontent.com/51394348/100401583-c3f1a100-300e-11eb-8339-aa976cab39db.jpg">
-		<meta itemprop="image" content="https://user-images.githubusercontent.com/51394348/100401583-c3f1a100-300e-11eb-8339-aa976cab39db.jpg">
-		
-		<meta name="twitter:title" content="Cryptodea">
-		<meta name="twitter:image" content="https://user-images.githubusercontent.com/51394348/100401583-c3f1a100-300e-11eb-8339-aa976cab39db.jpg">
+		<meta name="twitter:title" content="Cryptodea: Create and delete any cryptocurrency idea.">
+		<meta name="twitter:image" content="https://user-images.githubusercontent.com/51394348/100407550-8ba58f00-301d-11eb-9982-e7243ab2b60d.jpg">
 		<meta name="twitter:url" content="https://cryptodea.com">
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:description" content="Create and delete any cryptocurrency idea.">
