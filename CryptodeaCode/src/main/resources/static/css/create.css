@@ -41,13 +41,13 @@
 			 }
 			 #heading{
 				letter-spacing: 3px;
-				font-size: 15px;
+				font-size: 11px;
 				text-align: center;
 				color: gray;
-				font-weight: 600;
+				font-weight: 800;
 				margin-top: 20px;
 				margin-bottom: 40px;
-				opacity: .6;
+				opacity: .8;
 			 }
            #container {
            	  width: 500px;
@@ -138,9 +138,10 @@
        	   }
 	 #heading{
 		letter-spacing: 2px;
-		font-size: 11px;
+		font-size: 10px;
 		margin-bottom: 40px;
-		opacity: .7;
+		font-weight: 800;
+		opacity: .8;
 	 }
 	hr {
 		width: 300px;

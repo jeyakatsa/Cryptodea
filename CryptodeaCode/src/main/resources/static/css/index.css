@@ -23,13 +23,14 @@
 			 margin-bottom: 20px;
 		 }
 		 #heading{
-			letter-spacing: 3px;
-			font-size: 15px;
+			letter-spacing: 2px;
+			font-size: 11.5px;
 			text-align: center;
 			color: gray;
 			font-weight: 600;
 			margin-bottom: 40px;
-			opacity: .6;
+			font-weight: 800;
+			opacity: .8;
 		 }
 		 #create{
 			display: flex;
@@ -58,6 +59,9 @@
 			height: 1px;
 			margin-bottom: 30px;
 		}   
+		hr {
+		    width: 800px;
+			}
 		#table{
 			width: 800px;
 			text-align: center;
@@ -135,16 +139,19 @@
 		width: 650px;
 		margin-top: 100px;
 	}
-	   #logo{
-			 letter-spacing: 9px;
-			 font-size: 42px;
+		 #logo{
+			 letter-spacing: 7px;
+			 font-size: 37px;
 		 }
 	 #heading{
-		letter-spacing: 2px;
-		font-size: 13px;
+		letter-spacing: 1px;
+		font-size: 9px;
+		margin-bottom: 40px;
+		font-weight: 800;
+		opacity: .8;
 	 }
 	hr {
-		width: 300px;
+		width: 650px;
 	}
 		#table{
 			width: 650px;
@@ -160,19 +167,9 @@
 		width: 400px;
 		margin-top: 100px;
 	}
-		 #logo{
-			 letter-spacing: 9px;
-			 font-size: 42px;
-		 }
-	 #heading{
-		letter-spacing: 2px;
-		font-size: 11px;
-		margin-bottom: 40px;
-		opacity: .7;
-	 }
-	hr {
-		width: 300px;
-	}
+		hr {
+		width: 380px;
+	    }
 		#table{
 			width: 380px;
 		   }
